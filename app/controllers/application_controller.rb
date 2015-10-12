@@ -8,5 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-  	render text: puts 173.chr + "goodbye, world"
+  	render text: "&iexcl;adios, mundo!"
+  end
 end
